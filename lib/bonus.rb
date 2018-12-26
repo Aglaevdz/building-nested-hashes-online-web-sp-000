@@ -20,9 +20,8 @@ def bonus
    }
   }
 
-  def epic_tragedy
-    epic_tragedy[:montague][:hero][:status] == "dead"
-    #epic_tragedy[:capulet][:heorine][:status] = "alive"
+  def epic_tragedy(montague)
+    montague[hero.keys[2]] = "dead"
   end
 
 
