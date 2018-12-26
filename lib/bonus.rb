@@ -20,12 +20,9 @@ def bonus
    }
   }
 
-  def epic_tragedy(montague)
+  def epic_tragedy
     montague[hero.keys.unshift(' ')[2]] = "dead"
   end
-
-
-
   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
   epic_tragedy
 end
