@@ -20,7 +20,9 @@ def bonus
    }
   }
 
-  #code your solution here:
+  def epic_tragedy
+    epic_tragedy[:hero][:status] = "dead"
+  end
 
   
 
