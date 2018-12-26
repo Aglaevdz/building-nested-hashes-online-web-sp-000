@@ -21,7 +21,7 @@ def bonus
   }
 
   def epic_tragedy(montague)
-    montague[hero.keys[2]] = "dead"
+    montague[hero.keys.unshift(' ')[2]] = "dead"
   end
 
 
